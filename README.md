@@ -2,9 +2,13 @@
 use pfam hmm seed to search gene family candidate
 
 # Dependency package
+
 1.Perl https://www.perl.org/
+
 2.Bioperl https://bioperl.org/
+
 3.Muscle http://drive5.com/muscle/
+
 4.Hmmer http://hmmer.org/download.html
 
 # how to use
