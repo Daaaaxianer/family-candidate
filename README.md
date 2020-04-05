@@ -24,7 +24,7 @@ $ sh batch_pfam_hmmer_to_family_candidate_search.sh NB-ARC.hmm Athaliana_167_TAI
 
 1.NB-ARC.in.At.id.txt
 
-Family id list file
+The id list of searched family candidate
 
 2.NB-ARC.in.At.protein.fasta
 
