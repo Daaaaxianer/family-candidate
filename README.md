@@ -23,6 +23,9 @@ $ sh batch_pfam_hmmer_to_family_candidate_search.sh NB-ARC.hmm Athaliana_167_TAI
 # Result
 
 1.NB-ARC.in.At.id.txt
+
 Family id list file
+
 2.NB-ARC.in.At.protein.fasta
+
 The file contains the protein sequence, and the sequence name is consistent with the ID file
