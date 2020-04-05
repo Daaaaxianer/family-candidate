@@ -11,7 +11,7 @@ use pfam hmm seed to search gene family candidate
 
 4.Hmmer http://hmmer.org/download.html
 
-# how to use
+# How to use
 
 $ sh batch_pfam_hmmer_to_family_candidate_search.sh <hmm.seed> <protein.fasta> <Strict threshold> <threshold> <out.name>
 
