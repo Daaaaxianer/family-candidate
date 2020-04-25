@@ -1,6 +1,9 @@
 # Simply introduction
 
 use pfam hmm seed to search gene family candidate
+1. Identification of family seed candidates with high confidence using Pfam HMM seeds --- Strict threshold
+2. Generating HMM seeds of specific species
+3. Identification of family candidates by specific HMM seeds --- threshold
 
 # Dependency package
 
