@@ -1,6 +1,6 @@
 # Simply introduction
 
-First flow : Use Pfam Hmm Seed to Search Gene Family Candidates 
+First, Use Pfam Hmm Seed to Search Gene Family Candidates 
 1. Identification of family seed candidates with high confidence using Pfam HMM seeds --- Strict threshold
 2. Generating HMM seeds of specific species
 3. Identification of family candidates by specific HMM seeds --- threshold
