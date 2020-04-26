@@ -19,7 +19,7 @@ First, Use Pfam Hmm Seed to Search Gene Family Candidates
 
 $ sh batch_pfam_hmmer_to_family_candidate_search.sh <hmm.seed> <protein.fasta> <cds.fasta> <Strict threshold> <threshold> <out.name>
 
-example:
+Example:
 
 $ sh batch_pfam_hmmer_to_family_candidate_search.sh NB-ARC.hmm Athaliana_167_TAIR10.protein.fa 1e-20 1e-10 NB-ARC.in.At
 
