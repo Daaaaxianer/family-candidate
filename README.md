@@ -17,7 +17,7 @@ First, Use Pfam Hmm Seed to Search Gene Family Candidates
 
 # How to use
 
-$ sh batch_pfam_hmmer_to_family_candidate_search.sh <hmm.seed> <protein.fasta> <Strict threshold> <threshold> <out.name>
+$ sh batch_pfam_hmmer_to_family_candidate_search.sh <hmm.seed> <protein.fasta> <cds.fasta> <Strict threshold> <threshold> <out.name>
 
 example:
 
@@ -32,3 +32,7 @@ The id list of searched family candidate
 2.NB-ARC.in.At.protein.fasta
 
 The file contains the protein sequence, and the sequence name is consistent with the ID file
+
+3.NB-ARC.in.At.cds.fasta
+
+The file contains the cds sequence, and the sequence name is consistent with the ID file
