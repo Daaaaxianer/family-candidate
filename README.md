@@ -17,7 +17,7 @@ First, Use Pfam Hmm Seed to Search Gene Family Candidates
 
 # How to use
 
-$ sh batch_pfam_hmmer_to_family_candidate_search.sh <hmm.seed> <protein.fasta> <Strict threshold> <threshold> <out.name>
+$ sh batch_pfam_hmmer_to_family_candidate_search.sh <hmm.seed> <protein.fasta> <cds.fasta> <Strict threshold> <threshold> <out.name>
 
 example:
 
