@@ -2,7 +2,8 @@
 
 ### use pfam hmm seeds serach gene family candidates
 ### hmm_seed : hmm seed file of pfam
-### protein.fa : fasta file or protein
+### protein.fa : fasta file of protein
+### cds.fa : fasta file of cds (nucleotide)
 ### e-value1 : threshold of e-value to build specie hmm seed
 ### e-value1 : threshold of e-value to filter family candidate
 ### outname : outfile name for id file and fasta file like: NBSS-LRR.in.at 
@@ -10,15 +11,16 @@
 
 if [ $# -lt 5 ];then
     echo "Five parameters needed, but only $# given!"
-    echo "Usage: sh $0 <hmm_seed> <protein.fa> <e-value1> <e-value2> <outname>"
+    echo "Usage: sh $0 <hmm_seed> <protein.fa> <cds.fa> <e-value1> <e-value2> <outname>"
 exit 1;
 fi
 
 seed=$1
 pro=$2
-evalue1=$3
-evalue2=$4
-name=$5
+nuc=$3
+evalue1=$4
+evalue2=$5
+name=$6
 
 ### search use hmmseed  
 hmmsearch --domtblout ${seed}_domain_search.txt ${seed} ${pro}
@@ -34,6 +36,7 @@ hmmsearch --domtblout ${name}.serach.txt ${name}.hmm ${pro}
 awk -F '[ ]+' '{if($1 !~ /#/ && $7 < 1e-10 ) {print $1}}' ${name}.serach.txt |sort |uniq > ${name}.id.txt
 ### retrieve id sequence from all sequence
 perl retrieve.seq.from.all.fasta.pl ${name}.id.txt ${pro} ${name}.protein.fasta
+perl retrieve.seq.from.all.fasta.pl ${name}.id.txt ${nuc} ${name}.cds.fasta
 
 ###
 echo "${name} id file : ${name}.id.txt"
