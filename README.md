@@ -16,12 +16,12 @@
 4.Hmmer http://hmmer.org/download.html
 
 # How to use
-
-$ sh batch_pfam_hmmer_to_family_candidate_search.sh hmm.seed  protein.fasta cds.fasta Strict_threshold  threshold outname    
-
+```Bash
+sh batch_pfam_hmmer_to_family_candidate_search.sh hmm.seed  protein.fasta cds.fasta Strict_threshold  threshold outname    
+```
 Example:
 
-$ sh batch_pfam_hmmer_to_family_candidate_search.sh NB-ARC.hmm Athaliana_167_TAIR10.protein.fa 1e-20 1e-10 NB-ARC.in.At
+sh batch_pfam_hmmer_to_family_candidate_search.sh NB-ARC.hmm Athaliana_167_TAIR10.protein.fa 1e-20 1e-10 NB-ARC.in.At
 
 # Result file
 
