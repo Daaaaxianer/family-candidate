@@ -41,3 +41,4 @@ perl retrieve.seq.from.all.fasta.pl ${name}.id.txt ${nuc} ${name}.cds.fasta
 ###
 echo "${name} id file : ${name}.id.txt"
 echo "${name} protein file : ${name}.protein.fa"
+echo "${name} cds file : ${name}.cds.fa"
