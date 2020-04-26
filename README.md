@@ -17,7 +17,7 @@
 
 # How to use
 
-$ sh batch_pfam_hmmer_to_family_candidate_search.sh hmm.seed protein.fasta cds.fasta Strict_threshold threshold out.name    
+$ sh batch_pfam_hmmer_to_family_candidate_search.sh hmm.seed  protein.fasta cds.fasta Strict_threshold  threshold outname    
 
 Example:
 
