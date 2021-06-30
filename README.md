@@ -21,7 +21,7 @@ sh batch_pfam_hmmer_to_family_candidate_search.sh hmm.seed protein.fasta cds.fas
 ```
 Example:
 
-sh batch_pfam_hmmer_to_family_candidate_search.sh NB-ARC.hmm Athaliana_167_TAIR10.protein.fa 1e-20 1e-10 NB-ARC.in.At
+sh batch_pfam_hmmer_to_family_candidate_search.sh NB-ARC.hmm Athaliana_167_TAIR10.protein.fa Athaliana_167_TAIR10.cds.fa 1e-20 1e-10 NB-ARC.in.At
 
 # Result file
 
