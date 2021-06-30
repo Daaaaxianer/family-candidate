@@ -32,8 +32,8 @@ The id list of searched family candidate
 
 2.NB-ARC.in.At.protein.fasta
 
-The file contains the protein sequence, and the sequence name is consistent with the ID file
+The file contains the protein sequence, and the sequence name is consistent with the id file
 
 3.NB-ARC.in.At.cds.fasta
 
-The file contains the cds sequence, and the sequence name is consistent with the ID file
+The file contains the cds sequence, and the sequence name is consistent with the id file
