@@ -5,7 +5,7 @@
 2. Generating HMM seeds of specific species
 3. Identification of family candidates by specific HMM seeds --- threshold
 
-# Dependency package
+## Dependency package
 
 1.Perl https://www.perl.org/
 
@@ -15,7 +15,7 @@
 
 4.Hmmer http://hmmer.org/download.html
 
-# How to use
+## How to use
 ```Bash
 sh batch_pfam_hmmer_to_family_candidate_search.sh hmm.seed protein.fasta cds.fasta Strict_threshold threshold outname    
 ```
@@ -24,7 +24,7 @@ Example:
 sh batch_pfam_hmmer_to_family_candidate_search.sh NB-ARC.hmm Athaliana_167_TAIR10.protein.fa Athaliana_167_TAIR10.cds.fa 1e-20 1e-10 NB-ARC.in.At
 ```
 
-# Result file
+## Result file
 
 1.NB-ARC.in.At.id.txt
 
