@@ -5,7 +5,7 @@
 2. Generating HMM seeds of specific species
 3. Identification of family candidates by specific HMM seeds --- threshold
 
-Provides running methods for perl and python versions respectively
+**Provides running methods for perl and python versions respectively**
 
 ## perl version
 ### Dependency package
