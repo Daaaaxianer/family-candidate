@@ -49,7 +49,7 @@ sh batch_pfam_hmmer_to_family_candidate_search.sh NB-ARC.hmm Athaliana_167_TAIR1
 
 Example in terminal:
 
-!()[code_example.gif]
+![code_example.gif](https://github.com/Daaaaxianer/family-candidate/blob/master/code_example.gif)
 
 
 ## Result file
