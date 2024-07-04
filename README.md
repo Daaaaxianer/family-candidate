@@ -27,7 +27,7 @@ Example:
 sh batch_pfam_hmmer_to_family_candidate_search.perl.sh NB-ARC.hmm Athaliana_167_TAIR10.protein.fa Athaliana_167_TAIR10.cds.fa 1e-20 1e-10 NB-ARC.in.At
 ```
 
-## 2. Python version
+## 2. Python version（recommended）
 ### Dependency package
 
 1.[Python](https://www.python.org/)
