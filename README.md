@@ -10,13 +10,13 @@
 ## 1. Perl version
 ### Dependency package
 
-1.Perl https://www.perl.org/
+1.[Perl](https://www.perl.org)
 
-2.Bioperl https://bioperl.org/
+2.[Bioperl](https://bioperl.org)
 
-3.Muscle3 http://drive5.com/muscle/
+3.[Muscle v3](http://drive5.com/muscle/)
 
-4.Hmmer3 http://hmmer.org/download.html
+4.[Hmmer3](http://hmmer.org/download.html)
 
 ###  How to use
 ```Bash
@@ -30,13 +30,13 @@ sh batch_pfam_hmmer_to_family_candidate_search.perl.sh NB-ARC.hmm Athaliana_167_
 ## 2. Python version
 ### Dependency package
 
-1.Python https://www.python.org/
+1.[Python](https://www.python.org/)
 
-2.Biopython https://biopython.org/
+2.[Biopython](https://biopython.org/)
 
-3.Muscle5 http://drive5.com/muscle/
+3.[Muscle5](http://drive5.com/muscle/)
 
-4.Hmmer3 http://hmmer.org/download.html
+4.[Hmmer3](http://hmmer.org/download.html)
 
 ###  How to use
 ```Bash
