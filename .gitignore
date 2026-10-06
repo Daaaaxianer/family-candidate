@@ -1,35 +1,18 @@
-!Build/
-.last_cover_stats
-/META.yml
-/META.json
-/MYMETA.*
-*.o
-*.pm.tdy
-*.bs
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
 
-# Devel::Cover
-cover_db/
+# Generated analysis results and local verification records
+results/
+*.run/
+demo_result*/
+verification/
+run.json
+*.log
 
-# Devel::NYTProf
-nytprof.out
-
-# Dizt::Zilla
-/.build/
-
-# Module::Build
-_build/
-Build
-Build.bat
-
-# Module::Install
-inc/
-
-# ExtUtils::MakeMaker
-/blib/
-/_eumm/
-/*.gz
-/Makefile
-/Makefile.old
-/MANIFEST.bak
-/pm_to_blib
-/*.zip
+# Local archives and OS metadata
+*.zip
+.DS_Store
+Thumbs.db

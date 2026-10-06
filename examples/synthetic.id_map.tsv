@@ -1,0 +1,4 @@
+protein_id	gene_id	cds_id
+demo_hmm	demo_hmm_locus	demo_hmm
+demo_blast	demo_blast_locus	demo_blast
+demo_weak	demo_weak_locus	demo_weak
